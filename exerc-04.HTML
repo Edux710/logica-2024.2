@@ -1,0 +1,14 @@
+<script>
+
+//entrada
+let potencialampada = parseFloat(prompt("Potencia da lampada"))
+let largura = parseFloat(prompt("Largura do comodo"))
+let comprimento = parseFloat(prompt("Comprimento do comodo"))
+// Processamento
+let area = largura * comprimento
+let wattstotal = 18 * area
+let quantlampada = wattstotal / potencialampada
+// Saida
+document.write("A quantidade de lampadas necessarias: " + quantlampada)
+
+</script>
