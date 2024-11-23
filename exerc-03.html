@@ -5,8 +5,12 @@
 //Entregar o resultado 
 let temperatura = prompt("Digite a temparatura em graus Celsicus:")
 //processamento
-let F = ((temperatura * 9/5) + 32)
+function calcularF(tf){
+    let F = ((tf + 32) * 5/9)
+    return F
+}
+
 //Saida
-document.write("temp:" + F)
+document.write("temp:" + calcularF(temperatura))
 
 </script>
