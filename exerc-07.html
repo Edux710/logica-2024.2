@@ -1,0 +1,15 @@
+<script>
+//7 - Cálculo de combustível de corrida:Escreva um programa que calcule a quantidade de combustível necessária para uma equipe de corrida completar um determinado número de voltas. O usuário deve informar a extensão da pista, o número de voltas e o consumo de combustível do carro, e o programa deve indicar a quantidade de combustível necessária para a primeira etapa da corrida.
+
+ //Entrada
+ let extensão = parseFloat(prompt("Digite a extensão da pista:"))
+let voltas = parseFloat(prompt("Digite o número de voltas:"))
+let consumo = parseFloat(prompt("Digite o consumo por km:"))
+
+ //Processamento
+let percurso = voltas * extensão
+let resposta = percurso * consumo
+ //Saida
+document.write("Serão necessários:" + resposta + "L")
+
+</script>
