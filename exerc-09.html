@@ -1,0 +1,16 @@
+<script>
+    let numero = parseFloat(prompt("Digite o número de maçãs:"));
+
+// Processamento
+let resposta = 0; // Inicializando a variável resposta
+
+if (numero >= 12) {
+    resposta = numero * 0.40;  // Preço para 12 ou mais maçãs
+} else {
+    resposta = numero * 0.15;  // Preço para menos de 12 maçãs
+}
+
+// Saída
+document.write("R$" + resposta);  // Exibe o valor 
+
+</script>
